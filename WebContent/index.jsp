@@ -25,30 +25,30 @@
 		<tr>
 			<td>
 				<ul class="index-ul">
-					<li><a href="member/member_login.html">관리자 로그인</a></li>
-					<li><a href="member/member_add.html">학생정보 추가</a></li>
-					<li><a href="member/member_list.html">학생정보 목록</a></li>
-					<li><a href="member/member_detail.html">학생 상세정보</a></li>
-					<li><a href="member/member_update.html">학생정보 수정</a></li>
-					<li><a href="member/member_delete.html">학생정보 삭제</a></li>
+					<li><a href="member/member_login.jsp">관리자 로그인</a></li>
+					<li><a href="member/member_add.jsp">학생정보 추가</a></li>
+					<li><a href="member/member_list.jsp">학생정보 목록</a></li>
+					<li><a href="member/member_detail.jsp">학생 상세정보</a></li>
+					<li><a href="member/member_update.jsp">학생정보 수정</a></li>
+					<li><a href="member/member_delete.jsp">학생정보 삭제</a></li>
 				</ul>
 			</td>
 			<td>
 				<ul class="index-ul">
-					<li><a href="grade/grade_add.html">성적 입력</a></li>
-					<li><a href="grade/grade_list.html">성적 목록</a></li>
-					<li><a href="grade/grade_detail.html">성적 목록 상세</a></li>
-					<li><a href="grade/grade_update.html">성적 수정</a></li>
-					<li><a href="grade/grade_delete.html">성적 삭제</a></li>
+					<li><a href="grade/grade_add.jsp">성적 입력</a></li>
+					<li><a href="grade/grade_list.jsp">성적 목록</a></li>
+					<li><a href="grade/grade_detail.jsp">성적 목록 상세</a></li>
+					<li><a href="grade/grade_update.jsp">성적 수정</a></li>
+					<li><a href="grade/grade_delete.jsp">성적 삭제</a></li>
 				</ul>
 			</td>
 			<td>
 				<ul class="index-ul">
-					<li><a href="board/board_write.html">게시글 쓰기</a></li>
-					<li><a href="board/board_list.html">게시글 목록</a></li>
-					<li><a href="board/board_detail.html">게시글 상제</a></li>
-					<li><a href="board/board_update.html">게시글 수정</a></li>
-					<li><a href="board/board_delete.html">게시글 삭제</a></li>
+					<li><a href="board/board_write.jsp">게시글 쓰기</a></li>
+					<li><a href="board/board_list.jsp">게시글 목록</a></li>
+					<li><a href="board/board_detail.jsp">게시글 상제</a></li>
+					<li><a href="board/board_update.jsp">게시글 수정</a></li>
+					<li><a href="board/board_delete.jsp">게시글 삭제</a></li>
 				</ul>
 			</td>
 		</tr>
