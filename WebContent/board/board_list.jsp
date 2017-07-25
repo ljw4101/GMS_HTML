@@ -1,20 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Board List</title>
-<style type="text/css">
-	@IMPORT url("../css/board.css");
-</style>
-</head>
-<body><div id="wrapper">
-	<header>
-		<h1 id="title">Board List</h1>
-		<a id="go_main" href="../index.jsp">메인으로 가기</a><br />
-	</header>
-	<hr />
+<%@ include file="board_head.jsp" %>
 	<div id="board_list">
 		<table border=1>
 			<tr class="tr_height">
@@ -67,6 +53,4 @@
 			</tr>
 		</table>
 	</div>
-</div>
-</body>
-</html>
+<%@ include file="../common/footer.jsp" %>

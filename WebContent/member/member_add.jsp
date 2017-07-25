@@ -1,21 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Join</title>
-<style type="text/css">
-	@IMPORT url("../css/member.css");
-</style>
-</head>
-<body><div id="wrapper">
-	<header>
-		<h1 id="title">Join</h1>
-		<a id="go_main" href="../index.jsp">메인으로 가기</a><br />
-	</header>
-	<hr />
+<%@ include file="member_service.jsp" %>
+<%@ include file="member_head.jsp" %>
 	<div id=join_container class="margin-auto">
-		<form id="join_form" action="" class="with-100pro">
+		<form id="join_form" action="member_detail.jsp" class="with-100pro">
 		<fieldset>
 		<legend>Personal information:</legend>
 		<span>ID: </span>
@@ -28,7 +15,7 @@
 		<input name="name" type="text" placeholder="이름"/><br />
 		
 		<span>BirthDay: </span> 
-		<input name="birth" type="date"/><br />
+		<input name="birth" type="text"/><br />
 		
 		<span>Gender: </span> 
 		<input type="radio" name="gender" value="male" checked> Male
@@ -58,7 +45,4 @@
 		<input type="reset" value="취소" class="gms-background-red join-button" />
 		</form>
 	</div>
-	<hr />
-</div>
-</body>
-</html>
+<%@ include file="../common/footer.jsp" %>

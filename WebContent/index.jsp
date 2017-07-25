@@ -1,12 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.text.SimpleDateFormat, java.util.Date" %>
+ 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hello HTML</title>
-	<!-- 방법1 : 최신 
+	<!-- 방법1 : 최신  
 	<style> @IMPORT url("css/common.css"); </style> -->
-	<!-- 방법2 -->
+	<!-- 방법2  -->
 	<link rel="stylesheet" href="css/member.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,6 +16,8 @@
 	<header>
     	<h1 class="gms-text-center">INDEX</h1>
 	</header>
+	<div id="now_time">현재시간: <%= new SimpleDateFormat("yyyy년 MM월 dd일 a hh:mm:ss").format(new Date()) %></div>
+	<br />
 	<hr />
 	<div id="container">
 	<table id="index-tab">
@@ -54,13 +58,5 @@
 		</tr>
 	</table>
 	</div>
-	<hr />
-	<footer>
-		<div>
-			<p>Posted by: Hanbit</p>
-		  	<p>Contact information: <a href="mailto:someone@example.com">someone@hanbit.com</a>.</p>
-		</div>
-	</footer>
-</div>
-</body>
-</html>
+<%@ include file="../common/footer.jsp" %>
+	
